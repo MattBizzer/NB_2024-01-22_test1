@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Near-Balkan Films</title>
+	<link rel="icon" type="image/x-icon" href="images/logo.svg">
+	<link href="exp1_css.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<script src="exp1_query.js"></script>
+</head>
+
+<body>
+	<div class="black">
+		<img class="se-pre-con" src="images/logo.svg" alt="" width="960" height="540" />
+	</div>
+	<div class="bodyReal">
+		<!-- <div class="container">
+			<div class="menu-banner">
+				<img class="gif" src="images/Comp 1_00000.gif" alt="" width="960" height="540"/>
+			</div>
+		</div> -->
+		<div class="canvas">
+			<div class="box">
+				<div class="cursor"></div>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1 id="highlight">Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+			<div class="title">
+				<h1>Soon <span class="year">2024</span></h1>
+			</div>
+		</div>
+		<!-- <div class="canvas">
+			<div class="logo">
+				<img src="images/logo.svg" alt="">
+			</div>
+		</div> -->
+
+		<script type="text/javascript">
+			document.body.style.cursor = 'none';
+			const cursor = document.querySelector(".cursor");
+
+			//follow cursor on mousemove
+			document.addEventListener("mousemove", (e) => {
+				let x = e.pageX;
+				let y = e.pageY;
+
+				cursor.style.top = y + "px";
+				cursor.style.left = x + "px";
+				cursor.style.display = "block";
+
+				//mousestop
+				function mouseStopped() {
+					cursor.style.display = "none";
+				}
+				clearTimeout(timeout);
+				timeout = setTimeout(mouseStopped, 1000);
+			});
+
+			//cursor effects on mouseout
+			document.addEventListener("mouseout", () => {
+				cursor.style.display = "none";
+			});
+
+			//click
+			function changeColor() {
+				cursor.style.backgroundColor = "#ff0000";
+				//return false;
+			};
+		</script>
+	</div>
+</body>
+
+</html>
